@@ -36,14 +36,15 @@ img {
 }
 
 .slider {
-  width: 0.5rem;
+  width: 0.2rem;
   background: #fff;
-  height: 100%;
+  height: 50%;
   z-index: 3;
   position: absolute;
-  top: 0;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, 0);
+  pointer-events: none;
 }
 
 /* .img-container-before:hover {
